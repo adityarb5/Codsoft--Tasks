@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="calculator">
+      <input id="result" placeholder="0" readonly />
+      <div id="button">
+        <button onclick="clearValue()" class="diffColor">AC</button>
+        <button onclick="deleteValue()" class="diffColor">DE</button>
+        <button onclick="displayValue('%')" class="color">%</button>
+        <button onclick="displayValue('/')" class="color">/</button>
+        <button onclick="displayValue('7')">7</button>
+        <button onclick="displayValue('8')">8</button>
+        <button onclick="displayValue('9')">9</button>
+        <button onclick="displayValue('-')" class="color">-</button>
+        <button onclick="displayValue('4')">4</button>
+        <button onclick="displayValue('5')">5</button>
+        <button onclick="displayValue('6')">6</button>
+        <button onclick="displayValue('*')" class="color">*</button>
+        <button onclick="displayValue('1')">1</button>
+        <button onclick="displayValue('2')">2</button>
+        <button onclick="displayValue('3')">3</button>
+        <button onclick="displayValue('+')" class="color">+</button>
+        <button onclick="displayValue('00')">00</button>
+        <button onclick="displayValue('0')">0</button>
+        <button onclick="displayValue('.')">.</button>
+        <button onclick="calc()" class="diffColor">=</button>
+      </div>
+    </div>
+
+    <script src="func.js"></script>
+  </body>
+</html>
