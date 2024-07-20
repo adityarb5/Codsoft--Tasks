@@ -56,3 +56,9 @@ button:active {
 .color:active {
   background-color: hsl(299, 65%, 70%);
 }
+.diffcolor {
+  background-color: hsl(351, 74%, 56%);
+}
+.diffcolor:hover {
+  background-color: hsl(351, 74%, 75%);
+}
