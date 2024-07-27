@@ -4,7 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: hsl(305, 83%, 72%);
+  background-color: hsl(267, 100%, 2%);
 }
 #calculator {
   font-family: Arial, Helvetica, sans-serif;
@@ -48,16 +48,16 @@ button:active {
   background-color: hsl(0, 0%, 50%);
 }
 .color {
-  background-color: hsl(299, 65%, 45%);
+  background-color: hsl(32, 93%, 42%);
 }
 .color:hover {
-  background-color: hsl(299, 65%, 60%);
+  background-color: hsl(32, 90%, 60%);
 }
 .color:active {
-  background-color: hsl(299, 65%, 70%);
+  background-color: hsl(32, 90%, 49%);
 }
 .diffcolor {
-  background-color: hsl(351, 74%, 56%);
+  background-color: hsl(351, 91%, 36%);
 }
 .diffcolor:hover {
   background-color: hsl(351, 74%, 75%);
